@@ -65,4 +65,4 @@ Easy-RSA is a CLI utility to build and manage a PKI CA. It is used to:
 - Sign certificate requests to create certificates
 - Revoke certificates and generate CRLs (Certificate Revocation Lists)
 
-This Docker image packages Easy-RSA 3.1.7 for convenient use without local installation.
+This Docker image packages Easy-RSA 3.1.7 using Red Hat's UBI10-minimal base image for convenient use without local installation.
