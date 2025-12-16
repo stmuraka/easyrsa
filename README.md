@@ -52,9 +52,9 @@ docker run --rm -v $(pwd)/pki:/pki easyrsa --batch build-ca nopass
 docker run --rm -v $(pwd)/pki:/pki easyrsa --batch build-server-full myserver nopass
 
 # Generated files will be in:
-# - Certificate: ./pki/pki/issued/myserver.crt
-# - Private Key: ./pki/pki/private/myserver.key
-# - CA Certificate: ./pki/pki/ca.crt
+# - Certificate: ./pki/issued/myserver.crt
+# - Private Key: ./pki/private/myserver.key
+# - CA Certificate: ./pki/ca.crt
 ```
 
 ## About Easy-RSA
